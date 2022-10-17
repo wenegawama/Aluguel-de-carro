@@ -1,6 +1,6 @@
-import { Router } from 'express'
-import { v4 as uuidV4  } from 'uuid'
-import { Category } from '../model/Category'
+import { Router } from "express"
+
+import { Category } from "../model/Category"
 
 const categoriesRoutes = Router()
 
