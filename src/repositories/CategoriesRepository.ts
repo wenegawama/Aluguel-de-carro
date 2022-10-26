@@ -1,9 +1,11 @@
 import { Category } from '../model/Category'
+
 //DTO => Data transfert object
 interface ICreateCategoryDTO {
     name: string
     description: string
 }
+
 class CategoriesRepository {
     private categories: Category[] = []
 
@@ -22,6 +24,11 @@ class CategoriesRepository {
 
     this.categories.push(category)
     }
+
+    list(): Category[] {
+        return this.categories
+    }
+
 }
 
 export { CategoriesRepository }
