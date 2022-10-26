@@ -4,7 +4,7 @@ class Category {
 
     id?: string
     name: string
-    desciption: string
+    description: string
     created_at: Date
 
     constructor() {
