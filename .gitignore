@@ -5,3 +5,5 @@ dist
 .eslintrc.json
 yarn-error.log
 yarn.lock
+especificacao-requisitos.txt
+diagrama.png
